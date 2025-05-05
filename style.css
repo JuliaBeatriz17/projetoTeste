@@ -1,0 +1,49 @@
+.social {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 28px;
+  
+  }
+  
+  .social a {
+  
+    color: #2D1F28;
+    text-decoration: none;
+    margin: 10px;
+  
+  }
+  
+  .social:hover a {
+  
+    opacity: 0.3;
+    transition: 0.5s;
+  
+  }
+  
+  .social:hover a:hover {
+  
+    opacity: 1;
+    transition: 0.5s;
+  
+  }
+
+  .parag{
+    color: #2D1F28;
+    width: auto;
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  /* .button .duvidas a{
+    opacity: 5;
+    transition: 0.5s;
+  } */
+
+
