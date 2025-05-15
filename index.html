@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=ge, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aplicacoes.js">
     <title>Trabalho</title>
 </head>
 
@@ -12,31 +13,30 @@
 
     <header>
 
-        <h2 class="parag">Project</h2>
+        <h2 class="parag">informações</h2>
 
         <main>
 
-            <p>-Insira o seu e-mail para mais informações-</p>
+            <Header>
+                <h4>insira seus e-mail para mais informações.</h4>
+                <form action="send_email.php" method="post" class="form_email">
 
-            <button>
+                    <label for="email">Endereço de Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit" class="btn_email">Enviar</button><br><br>
+                </form>
+            </Header>
+
+            <button class="btn_about">
                 <a href="/projetoTeste/script.html" class="duvidas"></i>SOBRE MIM
                 </a>
-
-
             </button>
 
             <br><br>
 
-
-
-
-
-
-
-        </main>
-
-
     </header>
 </body>
+</main>
 
 </html>
